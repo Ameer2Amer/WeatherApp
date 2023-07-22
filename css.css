@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #9ACEF2;
+}
+
+.dark-background {
+  background-color: #222;
+  color: #fff;
+}
+
+.card{
+	width: 90%;
+	max-width: 470px;
+	color: #fff;
+	margin: 20px 100px auto 0;
+	border-radius: 20px;
+	padding: 40px 35px;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.search{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.search input{
+	border: 0;
+	outline: 0;
+	background: #00feb;
+	color: #555;
+	padding: 10px 25px;
+	height: 40px;
+	border-radius: 60px;
+	flex: 1;
+	margin-right: -31px;
+	font-size: 18px;
+	margin-bottom: 60px;
+	margin-top:-40px;
+}
+
+.search button{
+    border: 0;
+	outline: 0;
+	width:auto;
+	height: auto;
+	cursor: pointer;
+	margin-top:-95px;
+	background: none;
+}
+
+.weather-icon{
+	margin-top: 30px;
+	margin-top: -30px;
+}
+
+.city{
+	font-size: 70px;
+	font-weight: 500;
+	margin-top: -40px;
+}
+
+.weather h2{
+	font-size: 100px;
+	font-weight: 400;
+	margin-top: -60px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.details{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.col{
+	text-align: center;
+	padding-right: 100px;
+	margin-right: 100px;
+	margin-left: -150px;
+	margin-top: -30px;
+}
+
+.humidity {
+	font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.col1{
+    text-align: center;
+}
+
+.wind{
+font-weight: ;	
+margin-top: 5px;
+}
+
+.wind-label,
+.humidity-label,
+.Files-Like-label
+ {
+ margin-top: 5px;
+}
+
+.col2{
+text-align: center;
+padding-right: 100px;
+margin-right: 50px;
+margin-left:auto;
+margin-top: -110px;
+}
+
+.Files-Like{
+font-weight: bold;	
+margin-top: 5px;
+}
+
+.weather{
+	display:none;
+}
+
+.error{
+	text-align: left;
+	margin-left: 10px;
+	font-size: 14px;
+	margin-top: 10px;
+	display: none;
+}
+
+.weather-icon{
+	display: ;
+}
+
+.weather-container {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 20px;
+  margin-right: 230px;
+  margin-left: 30px;
+  padding: 10px;
+  background-color: #f5;
+  border-radius: 5px;
+  margin-top: -30px;
+}
+
+.current-temp {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.high-temp,
+.low-temp {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.temp-label {
+  margin-right: 30px;
+}
+
